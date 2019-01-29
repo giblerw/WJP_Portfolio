@@ -37,5 +37,20 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+
+    <script src="https://www.gstatic.com/firebasejs/5.8.1/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyCOkfQqIPcxSg7AfxJRs5Z7mSU6BuxXtpQ",
+        authDomain: "wjp-portfolio.firebaseapp.com",
+        databaseURL: "https://wjp-portfolio.firebaseio.com",
+        projectId: "wjp-portfolio",
+        storageBucket: "wjp-portfolio.appspot.com",
+        messagingSenderId: "768051161512"
+      };
+      firebase.initializeApp(config);
+    </script>
   </body>
+
 </html>
