@@ -1,5 +1,6 @@
 {
   "projects": {
-    "production": "wjp-portfolio"
+    "production": "wjp-portfolio",
+    "default": "wjp-portfolio"
   }
 }

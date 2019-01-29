@@ -8,7 +8,7 @@ const Navigation = () => {
   return(
     <nav className={'deep-purple darken-1'}>
       <div className={'nav-wrapper'}>
-        <ul className={'left'}>
+        <ul className={'nav'}>
           <li>
             <Link to={'/'}>
               <button className={'white-text'}>Home</button>
