@@ -10,7 +10,7 @@ export default class About extends React.Component{
 
     return(
       <div className={'container'}>
-        <h4 className={'teal-text'}>About Us</h4>
+        <h4 className={'teal-text'}>About Me</h4>
         <div className={'card-panel z-depth-5 teal'}>
           <div className={'container white-text'} style={style}>
             <p>

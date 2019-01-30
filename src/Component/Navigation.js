@@ -1,25 +1,32 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-// import Home from './Home';
-// import About from './About';
-
 const Navigation = () => {
   return(
-    <nav className={'deep-purple darken-1'}>
-      <div className={'nav-wrapper'}>
-        <ul className={'nav'}>
-          <li>
-            <Link to={'/'}>
-              <button className={'white-text'}>Home</button>
-            </Link>
+    <nav id="header" className="navbar navbar-expand-lg navbar-light bg-transparent justify-content-between" >
+
+      <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDiv" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+        <span className="navbar-toggler-icon"></span>
+      </button>
+      <div className="collapse navbar-collapse" id="navbarTogglerDiv">
+        <ul className="navbar-nav">
+
+          <li className="nav-item">
+            <Link className="nav-link" to="/">Home</Link>
           </li>
-          <li>
-            <Link to={'/about'}>
-              <button className={'white-text'}>About</button>
-            </Link>
+
+          <li className="nav-item">
+            <Link className="nav-link" to="/about">About</Link>
           </li>
-        </ul>
+
+          <li className="nav-item">
+            <Link className="nav-link" to="/portfolio">Portfolio</Link>
+          </li>
+
+          <li className="nav-item">
+            <Link className="nav-link" to="/contact">Contact</Link>
+          </li>
+      </ul>
       </div>
     </nav>
   )
